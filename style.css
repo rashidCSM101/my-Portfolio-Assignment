@@ -1,0 +1,318 @@
+/*_____________________________
+In this assignment we will use basic CSS which we cover in lecture and 
+some Adavance topics.
+_______________________________ */
+
+/* Import fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+/*
+      use for assignment
+font-family: 'Righteous', cursive;
+font-family: 'Roboto', sans-serif;
+
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    color: white;
+    background-image: url(3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+}
+
+
+
+/*___________________
+  Navigation Styling
+ _____________________*/
+
+.navbar {
+    width: 100%;
+    height: 76px;
+    box-shadow: 2px 0px 2px rgba(83, 83, 83, 0.2);
+    position: fixed;
+    background-color: #053657;
+}
+
+.navbar .logo {
+    float: left;
+}
+
+.navbar .logo .text {
+    margin: -14px 80px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    color: rgb(240 249 255);
+}
+
+.logo .text span {
+    font-family: 'Righteous', cursive;
+    color: #ef4444
+}
+
+#letter {
+    font-size: 60px;
+}
+
+
+
+.navbar .navbar-items {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+.navbar ul li {
+    float: left;
+    padding: 7px 17px;
+    list-style: none;
+    margin: 24px -14px;
+
+}
+
+.navbar ul li a {
+    padding: 8px 24px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.navbar ul li a:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+/*________________________
+    content Styling
+__________________________ */
+.content {
+    float: left;
+}
+
+.img {
+    float: right;
+}
+
+.img img {
+    width: 300px;
+    height: 600px;
+
+}
+
+.main-text {
+    padding: 170px 0px 0px 100px;
+    margin-bottom: 10px;
+}
+
+#one {
+    color: red
+}
+
+#two {
+    color: rgb(250 250 250);
+}
+
+.large-text {
+    font-family: 'Roboto';
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 4.2px;
+}
+
+.line {
+    background-color: #053657;
+    width: 5px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+}
+
+.large-text-2 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2.2px;
+    color: rgb(74 222 128);
+    margin-top: 2px;
+
+}
+
+.small-text {
+    width: 540px;
+    color: aliceblue;
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+}
+
+
+
+.button a {
+    background-color: #053657;
+    color: rgb(255 255 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding: 10px 28px;
+    float: left;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.buttons {
+    margin-left: 100px;
+}
+
+#button2 a {
+    background-color: transparent;
+    color: aliceblue;
+    border: 1px solid white;
+}
+
+#button2 a:hover {
+    background-color: white;
+    color: #053657;
+}
+
+#button1 a:hover {
+    background-color: white;
+    color: #053657;
+    border: none;
+}
+
+
+
+
+.section {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(226 232 240);
+}
+
+.section-box1 {
+    width: 50%;
+    height: 100vh;
+    float: left;
+    background-color: rgb(244 244 245);
+    text-align: center;
+}
+
+.section-box2 {
+    width: 50%;
+    height: 100vh;
+    float: right;
+    background-color: rgb(244 244 245);
+}
+
+.container1 {
+    padding: 150px 0px 150px 100px;
+
+}
+
+.section-heading {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    color: #053657;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.container1 p {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    text-indent: 139px;
+
+}
+
+.container2 {
+    padding: 76px 0px 0px 224px;
+}
+
+.container2 img {
+    width: 300px;
+    height: 400px;
+}
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(31 41 55);
+}
+
+.social-icons {
+    margin-left: 41%;
+}
+
+.social-icons ul li a i {
+    color: aliceblue;
+}
+
+.social-icons ul li {
+    float: left;
+    clear: right;
+    list-style: none;
+    margin: 15px;
+    font-size: 30px;
+}
+
+
+
+.footer-navbar {
+    clear: both;
+    margin-left: 39%;
+}
+
+.footer-navbar ul li {
+    list-style: none;
+
+}
+
+.footer-navbar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    float: left;
+    /* margin: 10px; */
+
+}
+
+.footer-navbar ul li span {
+    font-size: 10px;
+    color: #ffffff;
+    margin: 0px 10px;
+}
+
+.copy-right {
+    color: rgb(214, 212, 212);
+    text-align: center;
+    vertical-align: bottom;
+    clear: both;
+    margin-top: 36px;
+    background-color: #053657;
+
+}
